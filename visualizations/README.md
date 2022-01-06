@@ -11,7 +11,7 @@ Powerpoint is a less capable, but quick alternative to creating high resulution 
 - In such cases, use the `print` command to export the plot as a PNG at a high resolution (usually 1200 dpi or more) so that the details are reasonably preserved when zoomed in. 
 - The following command can be added to the script to generate a high resolution PNG.
 - `print(gcf,['output.png'],'-dpng','-r1200')`
-- The number following `-r` sets the output resolution and may be modified as needed.
+- The number following `-r` sets the output DPI and may be modified as needed. Higher values give higher resolution, but larger filesize and may slow down powerpoint/word 
   
 ### 3. Most art or text created using the tools in powerpoint can be exported as vector art. 
 - It is often easier to add annotations such as axis labels, ticklabels, etc. within powerpoint after scaling the images from MATLAB appopriately.
